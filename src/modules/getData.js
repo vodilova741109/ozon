@@ -5,5 +5,6 @@ const getData = () => {
   })
 }
 
+//return fetch(`https://test-162b2-default-rtdb.firebaseio.com/goods.json?${str ? `search=${str}` : ''}`)
 
 export default getData
