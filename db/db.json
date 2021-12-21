@@ -1,6 +1,6 @@
 {
   "goods": [
-    {
+    { "id": 0,
       "title": "Игровая приставка Sony PlayStation 4 Pro",
       "price": 33990,
       "sale": false,
@@ -9,6 +9,7 @@
       "category": "Игровая приставка"
     },
     {
+      "id": 0,
       "title": "Игровая приставка Sony PlayStation 3 Super Slim",
       "price": 16499,
       "sale": true,

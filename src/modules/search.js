@@ -4,7 +4,6 @@ import { searchFilter } from "./filters";
 
 const search = () => {
    const searchInput = document.querySelector('.search-wrapper_input');
-   console.log(searchInput);
    searchInput.addEventListener('input', (event) =>{
        const value = event.target.value;
        getData().then((data) => {

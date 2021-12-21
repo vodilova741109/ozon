@@ -6,10 +6,6 @@ const catalog = () => {
     const catalogModal =  document.querySelector('.catalog');
     const catalogModalItems =  document.querySelectorAll('.catalog  li');
 
-    console.log(catalogModalItems)
-    
-
-    
     let isOpen = false;
 
     btnCatalog.addEventListener('click', ( )=>{
@@ -28,7 +24,7 @@ const catalog = () => {
        
            getData().then((data) => {
             renderGoods(categoryFilter(data, text));
-         })
+            })
         })
     })
 }
