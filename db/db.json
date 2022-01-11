@@ -19,8 +19,11 @@
     },
     {
       "id": 2,
+      "title":  "Игровая приставка Sony",
+      "price": 18000,
       "sale": false,
       "img": "https://cdn1.ozone.ru/multimedia/c400/1024358491.jpg",
+      "hoverImg": "https://cdn1.ozone.ru/multimedia/c400/1024358491.jpg",
       "category": "Игровая приставка"
     },
     {
